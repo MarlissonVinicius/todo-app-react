@@ -6,7 +6,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import TaskPage from './pages/TaskPage.tsx'
 
 const router = createBrowserRouter([
-  {path: '/home',
+  {path: '/',
     element:<App></App>
   },
   {path:'/task-detail',
