@@ -21,7 +21,7 @@ export default function TaskPage() {
             className="absolute left-0 top-0 cursor-pointer"
             onClick={onReturnClick}
           >
-            <CircleArrowLeft />
+            <CircleArrowLeft color="lightblue"/>
           </button>
 
           <h1 className="text-3xl text-slate-100 font-bold">
