@@ -10,7 +10,7 @@ export default function TaskPage() {
   const navigate = useNavigate();
 
   const onReturnClick = () => {
-    navigate("/home");
+    navigate("/");
   };
 
   return (
